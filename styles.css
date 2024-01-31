@@ -1,0 +1,21 @@
+/* Custom CSS for styling */
+body {
+    background-color: #f9f8fa;
+}
+
+.container {
+    text-align: center;
+    padding: 16px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+    body {
+        background-color: #f0edf4;
+    }
+
+    h1 {
+        font-size: 26px;
+        color: #5a0e78;
+    }
+}
