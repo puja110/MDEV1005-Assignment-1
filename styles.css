@@ -4,18 +4,38 @@ body {
 }
 
 .container {
-    text-align: center;
     padding: 16px;
 }
+.about-image {
+    width: fit-content;
+    height: auto;
+}
 
-/* Media Query for smaller screens */
+/* media Query for smaller screens */
 @media (max-width: 600px) {
     body {
         background-color: #f0edf4;
     }
 
     h1 {
-        font-size: 26px;
+        font-size: 24px;
         color: #5a0e78;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    p {
+        color: #350947;
+        font-family:'Times New Roman', Times, serif;
+    }
+}
+
+/* media query for large screens (greater than 1200px) */
+@media only screen and (min-width: 1200px) {
+    body {
+        margin: 10px;
+    }
+
+    .navbar {
+        padding: 18px;
     }
 }
