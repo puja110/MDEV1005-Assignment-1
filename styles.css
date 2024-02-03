@@ -12,7 +12,7 @@ body {
 }
 
 /* media Query for smaller screens */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     body {
         background-color: #f0edf4;
     }
